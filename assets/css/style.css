@@ -1,0 +1,245 @@
+/* header */
+.header {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+    background-color: var(--color-one);
+    color: var(--color-two);
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.header-main {
+    background-color: #ffff;
+}
+
+.header-main .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+.header-main .inner-wrap .left-symbol img {
+    height: 48px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.header-main .inner-wrap ul {
+    display: flex;
+}
+
+.header-main .inner-wrap ul li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+.header-main .inner-wrap a {
+    text-decoration: none;
+}
+
+.header-main .inner-wrap .left-symbol {
+    font-size: 25px;
+}
+
+.header-main .inner-wrap .menu {
+    display: flex;
+    margin-left: 80px;
+    color: var(--color-one);
+    font-size: 18px;
+}
+
+.header-main .inner-wrap .contact {
+    color: var(--color-one);
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.header-main .inner-wrap .right-symbol {
+    margin-left: 60px; 
+}
+
+.header-main .inner-wrap .right-symbol ul li a {
+    margin-left: 15px;
+    font-size: 26px;
+}
+/* end header */
+
+/* section 1 */
+.section-1 {
+    background-color: #f0f2f5;
+    height: auto;
+}
+
+.section-1 .container .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.section-1 h1 {
+    color: var(--color-one);
+    font-size: 60px;
+}
+
+.section-1 .description p {
+    color: var(--color-one);
+    font-size: 25px; 
+}
+
+.section-1 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+    padding: 20px 0;     
+}
+
+.section-1 ul li {
+    color: var(--color-one);
+    font-size: 20px;
+}
+
+.section-1 ul li i {
+    margin-right: 10px;
+}
+
+.section-1 .buy {
+    margin-top: 18px;
+    width: 35%; 
+    background-color: var(--color-two);
+    text-align: center;
+    padding: 18px 30px;
+    font-size: 18px;
+    border-radius: 45px;    
+}
+
+.section-1 .buy a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-1 img {
+    height: 500px;
+}
+
+.section-1 .image {
+    position: relative;
+}
+
+.section-1 .price {
+    top: 20px;  
+    right: 25%;
+    position: absolute;
+    border-radius: 140px;
+    height: 140px;
+    width: 140px;
+    background-color: var(--color-two);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.section-1 .price h4 {
+    margin-top: 0;
+    color: var(--color-one);
+    font-size: 50px;
+}
+
+.section-1 .price strong {
+    margin-top: 10px;
+    color: var(--color-one);
+    font-size: 25px;
+}
+/* end section 1 */
+
+/* section 3 */
+.section-3 {
+    background-color: white;
+    height: auto;
+}
+
+.section-3 .heading {
+    padding-top: 30px;
+    color: var(--color-one);
+    box-sizing: border-box; 
+}
+
+.section-3 .heading h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.section-3 .heading p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-3 .inner-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    color: var(--color-text);
+}
+
+.section-3 .icon {
+    font-size: 40px;
+}
+
+.section-3 h3 {
+    color: var(--color-one);
+    font-size: 25px;
+}
+
+.section-3 .inner-wrap p {
+    font-size: 18px;
+}
+/* end section 3 */
+
+/* section 4 */
+.border {
+    background-color: #f0f2f5;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.tieu-de {
+    padding: 25px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.top-footer {
+    background-color: var(--color-one);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.top-footer ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.bot-foot {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bot-foot img {
+    height: 50px;
+    width: auto;
+}
+
+.bot-foot p {
+    font-size: 20px;
+    color: var(--color-text);
+}
+/* end section 4 */
